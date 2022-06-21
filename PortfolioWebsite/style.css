@@ -1,0 +1,14 @@
+header {
+    display: grid;
+}
+
+h1 {
+    align-items: left;
+    width: 50%;
+}
+
+header nav {
+    align-items: right;
+    width: 50%;
+}
+
