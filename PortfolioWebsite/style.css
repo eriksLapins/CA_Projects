@@ -51,4 +51,123 @@ nav a:hover {
     background-color:#f2f2f2;
 }
 
+/*Main*/
+main {
+    padding: 25px;
+    align-items: center;
+    width: 1200px;
+    height: 900px;
+    margin: auto;
+}
+
 /*About me*/
+
+.about-me {
+    display: flex;
+    height: 300px;
+    padding: 50px 0;
+}
+
+.text-part-about {
+    flex-direction: column;
+    background-color: #f2f2f2;
+    height: 100%;
+    padding: 0 25px;
+}
+
+.flex-item-half {
+    display: flex;
+    justify-content: center;
+    width: 50%;
+}
+
+.my-image {
+    background-color: #f2f2f2;
+}
+.my-image img {
+    height: 100%;
+}
+
+/*Projects*/
+
+.projects {
+    background-color: #f2f2f2;
+    height: 450px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    padding: 0 25px;
+}
+
+.projects-list ol {
+    list-style: none;
+}
+
+/*Contacts*/
+
+.contacts {
+    display: flex;
+    height: 300px;
+    padding: 50px 0;
+}
+
+.contacts img {
+    height: 100%;
+}
+
+.contact-info {
+    background-color: #f2f2f2;
+    height: 100%;
+    padding: 0 25px;
+    align-items: center;
+
+} 
+
+.contact-info ul {
+    flex-direction: column;
+    width: 100%;
+}
+
+.justify-left {
+    justify-content: left;
+}
+
+#contact-info li {
+    list-style-type: none;
+    line-height: 2.5rem;
+}
+
+/*Footer*/
+
+footer {
+    height: 50px;
+    background-color: #f2f2f2;
+    line-height: 50px;
+    text-align: center;
+}
+
+.socials {
+    background-color: #f2f2f2;
+    height: 40px;
+} 
+
+.socials ul {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+
+.socials ul li {
+    list-style: none;
+    line-height: 40px;
+    width: 300px;
+    text-align: center;
+}
+
+.socials ul li a {
+    width: 300px;
+}
+
+.socials ul li:hover {
+    background-color: #f7f7f7;
+}
