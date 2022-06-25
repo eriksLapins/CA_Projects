@@ -6,55 +6,66 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>PortfolioWebsite - Eriks Lapins</title>
     <link rel="stylesheet" href="style.css">
+    
 </head>
-<body>
-    <header>
-        <h1><a href="index.html">Eriks Portfolio Website</a></h1>
-        <nav>
-            <a href="#about-me" class="nav-buttons">About Me</a>
-            <a href="#projects" class="nav-buttons">Projects</a>
-            <a href="./contacts.html" class="nav-buttons">Contacts</a>
-        </nav>
-    </header>
-    <main>    
-        <div class="about-me grid">
-                <div class="flex-item-half text-part-about">
-                    <h2>About me</h2>
-                    <p>
-                        Hello, <br>
-                        My name is Eriks and I am learning to code through Codecademy lectures.</br>
-                        I have been learning for quite a while now and have learned at least the basics
-                        of HTML, CSS, and JS in order to create responsive and accessible websites.
-                    </p>
-                </div>
-                <div class="flex-item-half my-image">
-                    <img src="images\about\me.jpg" alt="Eriks Lapins">
-                </div>
-        </div>
-        <div class="projects" id="projects">
-            <h2>Projects</h2>
-            <p>I have worked on several projects throughout my learning at Codecademy</p>
-            <div class="projects-list">
-                <ol>
-                    <li>
-                        <h3><a href="#fotomatic" id="fotomatic">Fotomatic</a></h3>
-                        <p id="fotomatic">In this project I was working on adjusting a page to be responsive using flexbox and grid.</p>
-                    </li>
-                    
-                    <li>
-                        <h3><a href="#static-website" id="static-website">Static company website</a></h3>
-                        <p id="static-page">In this project I was creating a static website using only html and css.</p>
-                    </li>
-                    <li>
-                        <h3><a href="#web-style" id="web-style">Websyte style guide</a></h3>
-                        <p id="style-guide">In this project I was learning how to create and stylyze a websyte style guide using html and css</p>
-                    </li>
-                </ol>
+    <body>
+        <header>
+            <h1><a href="index.html">Eriks Portfolio Website</a></h1>
+            <nav>
+                <a href="#about-me" class="nav-buttons">About Me</a>
+                <a href="#projects" class="nav-buttons">Projects</a>
+                <a href="./contacts.html" class="nav-buttons">Contacts</a>
+            </nav>
+        </header>
+        <main>    
+            <div class="about-me">
+                    <div class="flex-item-half text-part-about">
+                        <h2>About me</h2>
+                        <p>
+                            Hello, <br>
+                            My name is Eriks and I am learning to code through Codecademy lectures.</br>
+                            I have been learning for quite a while now and have learned at least the basics
+                            of HTML, CSS, and JS in order to create responsive and accessible websites.
+                        </p>
+                    </div>
+                    <div class="flex-item-half my-image">
+                        <img src="images\about\me.jpg" alt="Eriks Lapins">
+                    </div>
             </div>
-        </div>
-    </main>
-    <footer>
-        <p>Copyright: Eriks Lapins 2022</p>
-    </footer>
-</body>
+            <div class="projects" id="projects">
+                <h2>Projects</h2>
+                <p>I have worked on several projects throughout my learning at Codecademy</p>
+                <div class="projects-list">
+                    <ol>
+                        <li>
+                            <h3><a href="#fotomatic-head" id="fotomatic-head">Fotomatic</a></h3>
+                            <div id = "fotomatic-description" class="projects-info">
+                                <p id="fotomatic">In this project I was working on adjusting a page to be responsive using flexbox and grid.</p>
+                                <button id="close-fotomatic">Close</button>
+                            </div>
+                        </li>
+                        
+                        <li>
+                            <h3><a href="#static-website" id="static-website">Static company website</a></h3>
+                            <div id="static-website-description" class="projects-info">
+                                <p id="static-page">In this project I was creating a static website using only html and css.</p>
+                                <button id="close-staticweb">Close</button>
+                            </div>
+                        </li>
+                        <li>
+                            <h3><a href="#web-style" id="web-style">Websyte style guide</a></h3>
+                            <div id="web-style-description" class="projects-info">
+                                <p id="style-guide">In this project I was learning how to create and stylyze a websyte style guide using html and css</p>
+                                <button id="close-webstyle">Close</button>
+                            </div>
+                        </li>
+                    </ol>
+                </div>
+            </div>
+        </main>
+        <footer>
+            <p>Copyright: Eriks Lapins 2022</p>
+        </footer>
+    </body>
+    <script type="text/javascript" src="./script.js"></script>
 </html>
