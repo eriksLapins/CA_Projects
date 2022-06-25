@@ -52,7 +52,25 @@ nav a:hover {
     background-color:#f2f2f2;
 }
 
+@media only screen and (max-width: 630px) {
+    header {
+        flex-direction: column;
+        height: 120px;
+    }
 
+    h1 {
+        width: 100%;
+        text-align: center;
+        padding: 0;
+    }
+
+    header nav {
+        width: 100%;
+        justify-content: space-evenly;
+        margin: auto;
+        padding: 0;
+    }
+}
 
 /*Main*/
 main {
@@ -62,13 +80,22 @@ main {
     margin: auto;
 }
 
-@media only screen and (max-width: 1200px) {
+@media only screen and (min-width: 630px) and (max-width: 1200px) {
     main {
         align-items: center;
         width: 600px;
         height: 1300px;
     }
 }
+
+@media only screen and (max-width: 630px) {
+    main {
+        align-items: center;
+        width: 300px;
+        height: 1475px;
+    }
+}
+
 /*About me*/
 
 .about-me {
@@ -81,6 +108,9 @@ main {
     flex-direction: column;
     background-color: #f2f2f2;
     height: 100%;
+}
+
+.text-part-about h2, p {
     padding: 0 25px;
 }
 
@@ -108,10 +138,6 @@ main {
         padding: 0;
     }
 
-    .text-part-about h2, p {
-        padding: 0 25px;
-    }
-
     .my-image {
         width: 100%;
     }
@@ -122,6 +148,7 @@ main {
     }
 
 }
+
 
 /*Projects*/
 
@@ -145,6 +172,12 @@ main {
 @media only screen and (max-width: 1200px) {
     .projects {
         height: 550px;
+    }
+}
+
+@media only screen and (max-width: 630px) {
+    .projects {
+        height: 750px;
     }
 }
 
@@ -181,6 +214,36 @@ main {
     list-style-type: none;
     line-height: 2.5rem;
 }
+
+@media only screen and (max-width: 1200px) {
+    .contacts-page-main {
+        height: 950px;
+    }
+    
+    .contacts {
+        flex-direction: column;
+        height: 600px;
+    }
+    .contacts img {
+        height: 300px;
+    }
+
+    .contact-info {
+        width: 100%;
+        padding: 0;
+    }
+
+    #contact-info {
+        margin: 0;
+        padding: 0;
+    }
+
+    #contact-info li {
+        text-align: center;
+    }    
+
+}
+
 
 /*Socials*/
 
